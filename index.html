@@ -7,6 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Will You Be My Girlfriend?</title>
     <style>
+
+        /*!* Darkened h1 and p elements *!*/
+        /*h1 {*/
+        /*    color: #8b0000; !* Dark red *!*/
+        /*    font-size: 36px;*/
+        /*    text-shadow: 1px 1px 2px #000000; !* Subtle shadow for depth *!*/
+        /*}*/
+
+        /*p {*/
+        /*    color: #8a08aa; !* Dark indigo *!*/
+        /*    font-size: 20px;*/
+        /*    font-family: 'Arial', sans-serif; !* Readable font *!*/
+        /*}*/
+
+        /* Centering the "Wanna see my yeppeo girl" button */
+        #video-container {
+            text-align: center;
+        }
+
+        .video-button {
+            display: block;
+            margin: 20px auto; /* Centers the button horizontally */
+        }
+
         /* Base body styling */
         body {
             font-family: 'Arial', sans-serif; /* More readable font for body text */
@@ -223,8 +247,8 @@
 </div>
 
 <div id="girlfriend-page">
-    <h1>🌸 My Amazing Girlfriend 🌸</h1>
-    <p>You are the sunshine of my life, the reason behind my smile, and the love of my heart. ❤️</p>
+    <h1 style="color: #ff4757">🌸 My Amazing Girlfriend 🌸</h1>
+    <p style="color: #ff6b81">You are the sunshine of my life, the reason behind my smile, and the love of my heart. ❤️</p>
     <div class="heart" onclick="showFirstMeetMessage()">❤️</div>
     <div class="click-me" onclick="showFirstMeetMessage()">Click Me</div>
     <div id="first-meet-message" class="message"></div>
@@ -245,7 +269,7 @@
             <p>From the days of freshman until we almost grad,</p>
             <p>Never once did I think that my love for you would ever fade.</p>
             <p>Your smile is the motivation that drives me to work harder every single day.</p>
-            <p>23.01.2023, a magical date that brought a soulless boy back to life.</p>
+            <p>Your presence in my life on 23.01.2023 brought a soulless boy back to life.</p>
             <p>Thank you, sayang. 💖</p>
             <!-- Final cute button to show big love message -->
             <button class="love-button" onclick="showLoveMessage()">Pesanan dari Penaja</button>
@@ -270,7 +294,7 @@
 
     function showFirstMeetMessage() {
         const message = `
-        <p><strong>18.05.2022, Our first meet...</strong></p>
+        <p><strong>23.01.2023, Our first meet...</strong></p>
         <p>Two years have passed, and yet, I still fall even harder for you every day.</p>
         <p>Every single moment with you is a precious memory I want to keep forever.</p>
         <p>Will you be my girlfriend?</p>
