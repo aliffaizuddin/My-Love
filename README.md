@@ -1,6 +1,6 @@
 # 💌 Will You Be My Girlfriend? 💖
 
-This is a sweet, romantic, and interactive web experience designed to make your loved one smile! It’s a special gift I made for my amazing girlfriend, Nadia Zafira, to celebrate our love and memories together. 🎉
+This is a sweet, romantic, and interactive web experience designed to make your loved one smile! It’s a special gift I made for my amazing girlfriend, to celebrate our love and memories together. 🎉
 
 The website includes:
 - A lovely mailbox for a cute surprise 📬
@@ -18,7 +18,7 @@ The website includes:
 1. Open the website and click the mailbox to start the journey! 📬
 2. Click on the heart to unlock sweet messages. 💖
 3. Watch the special video to relive memories. 🎥
-4. Finally, enjoy the pop-up that says “I Love You Nadia Zafira!!” 🥰
+4. Finally, enjoy the pop-up that says “I Love You!!” 🥰
 
 ## How to Host It 🌍
 You can host this website easily through **GitHub Pages** to share it with anyone special!
