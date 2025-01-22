@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Will You Be My Girlfriend?</title>
     <style>
+        /* Base body styling */
         body {
-            font-family: 'Dancing Script', cursive; /* Romantic font */
+            font-family: 'Arial', sans-serif; /* More readable font for body text */
             background-color: #ffe4e1; /* Light pink background for a cute look */
             color: beige;
             display: flex;
@@ -90,7 +91,7 @@
             font-size: 18px;
             color: #ff6b81;
             margin-top: 20px;
-            font-family: 'Caveat', cursive;
+            font-family: 'Caveat', cursive; /* Keeping romantic font for specific messages */
         }
 
         /* Cute video button */
@@ -169,7 +170,7 @@
         /* Popup text styling */
         .popup p {
             font-size: 24px;
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Arial', sans-serif; /* Switching to Arial for better readability */
             color: #ff6b81;
             margin-bottom: 20px;
             letter-spacing: 2px;
@@ -204,7 +205,6 @@
                 opacity: 1;
             }
         }
-
 
         /* New fonts */
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Caveat&display=swap');
@@ -272,13 +272,11 @@
         const message = `
         <p><strong>23.01.2023, Our first meet...</strong></p>
         <p>Two years have passed, and yet, I still fall even harder for you every day.</p>
-        <p>I love you, sayang. ❤️</p>
-        <p>Words could never describe how happy I am to have you in my life. 💖</p>
-    `;
+        <p>Every single moment with you is a precious memory I want to keep forever.</p>
+        <p>Will you be my girlfriend?</p>
+        `;
         document.getElementById('first-meet-message').innerHTML = message;
-
-        // Show the video button after the message appears
-        document.getElementById('video-button').style.display = 'inline-block';
+        document.getElementById('video-button').style.display = 'block';
     }
 
     function showVideo() {
@@ -286,16 +284,12 @@
     }
 
     function showLoveMessage() {
-        const popup = document.getElementById('love-message');
-        popup.style.display = 'block';
+        document.getElementById('love-message').style.display = 'block';
     }
 
     function closeLoveMessage() {
-        const popup = document.getElementById('love-message');
-        popup.style.display = 'none';
+        document.getElementById('love-message').style.display = 'none';
     }
-
 </script>
-
 </body>
 </html>
