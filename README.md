@@ -6,7 +6,7 @@ The website includes:
 - A lovely mailbox for a cute surprise 📬
 - Heart-click interaction to reveal a heartfelt message ❤️
 - A special video to remember our journey together 🎥
-- A final sweet pop-up saying "I Love You Nadia Zafira!" 💖
+- A final sweet pop-up saying "I Love You!" 💖
 
 ## Features 🌸
 1. **Interactive Mailbox**: Click to open the surprise letter! 📬
